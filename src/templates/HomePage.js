@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 
+
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
@@ -18,6 +19,10 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
     <section className="section">
       <div className="container">
         <Content source={body} />
+        <div>
+          <p>エンジニアの普通これくらい分かるだろうは世間には通用しない！</p>
+          <p>私たちUmuは目線を普通の生活者に寄せ、誰にでも分かりやすいデザインを提供することを心がけています。</p>
+        </div>
       </div>
     </section>
   </main>
