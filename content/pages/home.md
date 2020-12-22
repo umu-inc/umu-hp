@@ -9,11 +9,6 @@ meta:
   title: The Ultimate Gatsby Starter
 ---
 
-# News
-    2020年12月10日会社設立
-<br>
-
-## Concept
 
 
 
