@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import styled from 'styled-components';
-import StepImage_03 from '../assets/images/myProfile.jpg';
+import StepImage_03 from '../../static/images/myProfile.jpg';
 
 const Text = styled.div`
 padding: 0.5em 1em;
