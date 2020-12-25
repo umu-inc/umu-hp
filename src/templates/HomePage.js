@@ -69,7 +69,8 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, news, c
       <SubTitle>{ceo}</SubTitle>
       <Img><img src={StepImage_03}></img></Img>
         <Text>
-          <p>{body}</p>
+        <Content source={body} />
+
       　</Text>
       </div>
     </section>
